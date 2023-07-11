@@ -74,5 +74,7 @@
     "dist/models",
     "dist/lib",
     "examples/"
-  ]
+  ],
+  "postinstall":
+    "cd ./node_modules/my-forked-project && npm install && npm run build"  
 }
