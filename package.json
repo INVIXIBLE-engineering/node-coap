@@ -75,6 +75,7 @@
     "dist/lib",
     "examples/"
   ],
-  "postinstall":
-    "cd ./node_modules/coap && npm install && npm run build"  
+  "precommit":[
+    "build"
+  ]
 }
