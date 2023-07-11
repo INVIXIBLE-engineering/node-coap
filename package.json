@@ -76,5 +76,5 @@
     "examples/"
   ],
   "postinstall":
-    "cd ./node_modules/my-forked-project && npm install && npm run build"  
+    "cd ./node_modules/coap && npm install && npm run build"  
 }
